@@ -6,7 +6,6 @@ from app.book import Book
 
 
 class AbstractSerializer(ABC):
-
     @abstractmethod
     def serialize(self) -> None:
         pass
